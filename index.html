@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Formularios-2</title>
+</head>
+<body>
+    <header>
+        <a href="/">Home</a>
+        <a href=" ">Tienda</a>
+        <a href=" ">Blog</a>
+        <a href=" ">Contacto</a>
+    </header>
+    <section class="hero">
+        <div class="hero-txt">
+            <h1>
+                Hecha a mano </br>con una pizca de Amor
+            </h1>
+            <i class='bx bx-cart-add'></i> 
+        </div>
+        <div class="hero-img">
+        </div>
+        <div class="formulario"> 
+            <fieldset class="FieldsetGeneral">
+                <legend>Datos Personales</legend>
+                <form>
+                <label for="gender">Es usted*</label>
+                <select id="gender" name="generos">
+                    <option value="Sr.">Sr.</option>
+                    <option value="Sra.">Sra.</option>
+                    <option value="Otro">Otro</option>
+                </select>
+                    <label for="Nombre">Su nombre*</label>
+                    <input type="text" id="nombre" name="nombre" placeholder="Pedro Perez" required>
+                    <label for="telefono"> No. Telefono:*</label>
+                    <input type="tel" id="telefono" name="teléfono" placeholder="+34-123-456-789" required>
+            </fieldset>
+                <label for="pizza">Selecciona una especialidad de pizza</label> 
+                <select id="pizza" name="especialidades">
+                    <option value="Margarita">-</option>
+                    <option value="Margarita">Margarita</option>
+                    <option value="4 quesos">4 quesos</option>
+                    <option value="Pepperoni">Pepperoni</option>
+                    <option value="4 estaciones">4 estaciones</option>
+                    <option value="Fungi">Fungi</option>
+                    <option value="Hawaiana">Hawaiana</option>
+                </select>
+                <fieldset class="extra-ingredients"> 
+                <legend>extras</legend>
+                    <input type="checkbox" name="Piña" id="piña1">
+                    <label for="Piña">Piña</label>
+                    <input type="checkbox" name="Piña" id="piña2">
+                    <label for="Piña">Piña</label>
+                    <input type="checkbox" name="Piña" id="piña3">
+                    <label for="Piña">Piña</label>
+                    <input type="checkbox" name="Piña" id="piña4">
+                    <label for="Piña">mas Piña</label>
+                </fieldset>
+                <div class="buttonField">
+                    <input id="SubmitButton" type="submit">
+                </div>
+            </form>
+        </div>
+        <div class="formulario"> 
+            <fieldset class="FieldsetGeneral">
+                <legend>Dirección de entrega</legend>
+                <form>
+                <div class="orden2">
+                    <input type="radio" id="recoger" name="entrega" value="recoger">
+                    <label class="label2" for="recoger">Recoger</label>
+                    <input type="radio" id="domicilio" name="entrega" value="domicilio">    
+                    <label class="label2" for="recoger">A Domicilio</label>
+                </div>
+
+                <textarea id="addressbox" name="addressbox" rows="4" cols="50">    
+                </textarea>
+                <label for="email">Correo electrónico:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username">
+                <label for="pwd">Password:</label>
+                <input type="password" id="pwd" name="pwd">
+            </fieldset>
+                </fieldset>
+                <div class="buttonField">
+                    <input id="SubmitButton" type="submit">
+                </div>
+            </form>
+        </div>
+    </section>
+
+
+    <footer>
+
+    </footer>
+</body>
+</html>

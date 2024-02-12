@@ -1,0 +1,118 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+body {
+  background-color: black;
+}
+header {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  height: 50px;
+  background-color: darkgray;
+}
+
+a {
+  width: 100 px;
+  margin: 10px;
+  text-decoration: none;
+  border-radius: 5px;
+  color: white;
+}
+
+.hero {
+  background-image: url("/img/photo-1579751626657-72bc17010498.avif");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+i {
+  margin-top: 50px;
+  color: white;
+  font-size: 6rem;
+}
+.hero-txt {
+  margin-left: 50px;
+  display: flex;
+  flex-direction: column;
+  font-size: 4rem;
+  color: rgba(255, 255, 255, 0.698);
+}
+
+.formulario {
+    color: white;
+    font-size: 2rem;
+    padding: 20px;
+  margin: 20px 50px;
+  width: 600px;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 1.5rem;
+}
+
+select {
+    appearance: none;
+    background-color: transparent;
+    color: azure;
+    padding: 5px;
+    border-radius: 10px;
+    border-color: white;
+}
+
+.extra-ingredients  {
+    height: 50px;
+    flex-direction: row;
+    font-size: 1rem;
+    border-radius: 10px;
+    appearance: none;
+}
+
+input {
+    background-color: rgba(255, 255, 255, 0.535);
+    border-color: white;
+    box-shadow: none;
+    border-style: none;
+}
+
+#piña1, #piña2, #piña3, #piña4 {
+  margin: 5px;
+}
+
+#SubmitButton {
+  margin: 10px 5px;
+  border-style: none;
+  border-radius: 10px;
+  padding: 5px 10px;
+  background-color: rgba(0, 255, 255, 0.647);
+  color: white;
+}
+
+.buttonField {
+  margin: auto;
+}
+
+.FieldsetGeneral {
+  border-radius: 10px;
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+
+.label2 {
+  font-size: 1rem;
+}
+
+.orden2 {
+  margin-bottom: 15px;
+}
